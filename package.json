@@ -1,0 +1,31 @@
+{
+  "name": "@yexiaoyu123/koishi-plugin-animetrace",
+  "description": "基于AnimeTrace API的识图搜索插件，用于获取Galgame、动漫的来源出处。",
+  "version": "0.0.4",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ], 
+  "license": "MIT",  
+  "homepage": "https://github.com/yexiaoyu123/koishi-plugin-animetrace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yexiaoyu123/koishi-plugin-animetrace.git"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "image",
+    "识图搜索",
+    "galgame"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.17.9"
+  },
+  "dependencies": {
+    "jimp": "^0.22.12"
+  }
+}
